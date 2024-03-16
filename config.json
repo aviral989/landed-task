@@ -1,0 +1,14 @@
+{
+    "pages": [
+        {
+            "name": { "type": "textinput", "required": true },
+            "gender": { "type": "select", "options": ["M", "F", "Nonbinary"], "required": true },
+            "age": { "type": "number", "required": true }
+        },
+        {
+            "profession": { "type": "select", "options": ["Owner", "Agent", "Buyer", "Seller"], "required": true},
+            "services": { "type": "textinput", "required": false } 
+        }
+    ],
+    "timeout": 30 
+}
